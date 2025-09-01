@@ -45,11 +45,11 @@ const Education = () => {
               {/* Flex container for image and text */}
               <div className="flex items-center space-x-6">
                 {/* School Logo/Image */}
-                <div className="w-32 h-14 bg-white rounded-lg flex items-center justify-center shadow-md overflow-hidden">
+                <div className="w-40 h-16  bg-white rounded-lg flex items-center justify-center shadow-md overflow-hidden">
                   <img
                     src={edu.img}
                     alt={edu.school}
-                    className="max-h-12 max-w-[100px] object-contain"
+                    className="w-full h-full object-contain"
                   />
                 </div>
 

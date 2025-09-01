@@ -235,7 +235,7 @@ export const education = [
     school: "Holy Point Academy, Bharthana, Etawah",
     date: "Apr 2021 - March 2022",
     grade: "89.8%",
-    desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
+    desc: "I completed my class 12 education from Holy Point Academy, Bharthana, Etawah, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
     degree: "CBSE(XII) - PCM",
   },
   {
