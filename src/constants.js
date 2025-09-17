@@ -61,7 +61,7 @@ import lpuLogo from './assets/education_logo/lpuLogo.png';
 import blogWebsiteLogo from './assets/work_logo/blog-website.png';
 import pharmacyLogo from './assets/work_logo/pharmacy-website.png';
 import eduNeocodeLogo from './assets/work_logo/edu-neocode.png';
-
+import courseCloudLogo from './assets/work_logo/coursecloud.png';
 
 export const SkillsInfo = [
   {
@@ -157,7 +157,7 @@ export const experiences = [
     desc: "Participated in a hackathon, building utility projects like a To-Do app and video downloader, while collaborating in a competitive coding environment.",
     skills: ["JavaScript", "PHP", "Problem Solving", "Team Collaboration"],
   },
-  
+
 ];
 
 
@@ -218,7 +218,7 @@ export const experiences = [
 // ];
 
 export const education = [
- 
+
   {
     id: 0,
     img: lpuLogo,
@@ -229,7 +229,7 @@ export const education = [
     degree: "Bachelor of Technology (B.Tech.) - Computer Science and Engineering",
   },
 
-    {
+  {
     id: 1,
     img: hpaLogo,
     school: "Holy Point Academy, Bharthana, Etawah",
@@ -266,7 +266,7 @@ export const projects = [
     description:
       "A full-stack quiz-based platform designed for College students to practice previous year questions and practice MCQs questions. The platform offers every question detailed explanation, helping students to understand their preparation journey effectively.",
     image: eduNeocodeLogo,
-    tags: [ "HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript"],
     // github: "https://github.com/codingmastr/CSPrep",
     webapp: "https://neocode.in/",
   },
@@ -286,10 +286,21 @@ export const projects = [
     description:
       "An efficient and customizable pharmacy webbsite that offers user to book services related to body checkup. ",
     image: pharmacyLogo,
-    tags: ["HTML", "CSS","JavaScript", "PHP","MySQL","Tailwind CSS"],
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Tailwind CSS"],
     // github: "https://github.com/codingmastr/cmtk-email-validator",
     webapp: "https://arnavhealthcare.neocode.in/",
   },
+  {
+    id: 4,
+    title: "Course Selling Website",
+    description:
+      "A full-stack course selling platform where instructors can create, manage, and publish courses with lectures, while students can enroll, access learning materials, and track their progress.",
+    image: courseCloudLogo,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/piyush11234/coursecloud",
+    webapp: "https://coursecloud.onrender.com/",
+  }
+
   // {
   //   id: 4,
   //   title: "Task Reminder Chrome Extension Tool",
