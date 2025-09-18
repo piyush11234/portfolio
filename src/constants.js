@@ -62,6 +62,7 @@ import blogWebsiteLogo from './assets/work_logo/blog-website.png';
 import pharmacyLogo from './assets/work_logo/pharmacy-website.png';
 import eduNeocodeLogo from './assets/work_logo/edu-neocode.png';
 import courseCloudLogo from './assets/work_logo/coursecloud.png';
+import expenseTrackerLogo from './assets/work_logo/expense_tracker.png';
 
 export const SkillsInfo = [
   {
@@ -296,10 +297,21 @@ export const projects = [
     description:
       "A full-stack course selling platform where instructors can create, manage, and publish courses with lectures, while students can enroll, access learning materials, and track their progress.",
     image: courseCloudLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
+    tags: ["React JS", "API", "HTML", "CSS", "Tailwind CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/piyush11234/coursecloud",
     webapp: "https://coursecloud.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "Expense Tracker Website",
+    description:
+      "A full-stack expense management application that allows users to securely sign up, log in, and manage their daily expenses. Users can add, view, and delete expenses, categorize them, and track spending trends with a clean and responsive UI.",
+    image: expenseTrackerLogo,
+    tags: ["React JS", "API", "HTML", "CSS", "Tailwind CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/piyush11234/Expense-Tracker",
+    webapp: "https://expense-tracker-daily.vercel.app/",
   }
+
 
   // {
   //   id: 4,
